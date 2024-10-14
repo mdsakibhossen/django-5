@@ -4,4 +4,5 @@ from django.shortcuts import render
 
 
 def contact(request):
-    return render(request, "demo_app2/contact.html")
+    page_info = {"name": "Contact"}
+    return render(request, "demo_app2/contact.html", context=page_info)
