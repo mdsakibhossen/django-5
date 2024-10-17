@@ -1,0 +1,14 @@
+body{
+    background-color: lightslategray;
+}
+h1{
+    color: blueviolet;
+}
+button{
+    padding: .8rem 2rem;
+    border: none;
+    border-radius: 3px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
